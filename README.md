@@ -87,10 +87,12 @@ const entry = decideWithVoice({
 | `test/run-tests.mjs` | 14 checks — see REPORT.md. Fixture audio is synthetic (generated WAV header + silent samples, no speech, nobody's voice). |
 | `SPEC.md` | MrGhosty integration path, identity roadmap, spoofing cautions, honest limits. |
 
-Zero runtime dependencies; Node ≥ 18; ESM. The GhostGuard core package
-is **read-only** to this prototype — it consumes GhostGuard's record
-and decision shapes, it does not modify or require them at runtime
-(trails arrive as JSONL files).
+Node ≥ 18; ESM. The prototype's code imports nothing at runtime —
+`ghostguard` is declared in `package.json` as the family companion
+package. The GhostGuard core package is **read-only** to this
+prototype — it consumes GhostGuard's record and decision shapes, it
+does not modify or require them at runtime (trails arrive as JSONL
+files).
 
 ## Status
 

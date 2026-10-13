@@ -9,8 +9,8 @@
 // evidence", not a biometric. See SPEC.md.
 //
 // Shapes follow GhostGuard's own contracts (read, not modified):
-//  - Trail records are GatewayRecord objects (src/gateway.ts in
-//    ~/workspace/ghostguard), one per JSONL line; Cloud-store files may
+//  - Trail records are GatewayRecord objects (src/gateway.ts in the
+//    ghostguard package), one per JSONL line; Cloud-store files may
 //    wrap them as { entry_type: "record", record: {...} }.
 //  - Decision entries mirror the Cloud store's decision shape
 //    ({ entry_type: "decision", action_id, project_id, decision,
