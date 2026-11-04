@@ -1,4 +1,5 @@
 # GhostGuard Voice Approval (prototype)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Release](https://img.shields.io/github/v/release/littlestjames82-sys/ghostguard-voice)](https://github.com/littlestjames82-sys/ghostguard-voice/releases)
 
 **Answer a pending GhostGuard `ask` with your voice — the recording becomes hash-bound evidence in the trail.**
 
